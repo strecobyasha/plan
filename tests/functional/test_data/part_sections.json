@@ -1,0 +1,58 @@
+[
+    {
+        "part_id": "61cac47c-4e9d-49a1-bf0b-9bfd99953f00",
+        "section_id": "6dda979b-605a-4fd9-bce6-e7abb1011a4a",
+        "order_num": 1,
+        "is_last_point": false,
+        "cycle_time": 1,
+        "balance": 0
+    },
+    {
+        "part_id": "61cac47c-4e9d-49a1-bf0b-9bfd99953f00",
+        "section_id": "d8ec4e83-0fea-4ea0-be23-0267518303ce",
+        "order_num": 2,
+        "is_last_point": false,
+        "cycle_time": 1,
+        "balance": 2
+    },
+    {
+        "part_id": "61cac47c-4e9d-49a1-bf0b-9bfd99953f00",
+        "section_id": "a12be8bc-25bd-4830-bd6f-6b7d5a27a76a",
+        "order_num": 3,
+        "is_last_point": true,
+        "cycle_time": 1,
+        "balance": 8
+    },
+    {
+        "part_id": "a6f46c67-a08c-4fb5-9b08-b87b6995c953",
+        "section_id": "6dda979b-605a-4fd9-bce6-e7abb1011a4a",
+        "order_num": 1,
+        "is_last_point": false,
+        "cycle_time": 1,
+        "balance": 0
+    },
+    {
+        "part_id": "a6f46c67-a08c-4fb5-9b08-b87b6995c953",
+        "section_id": "d8ec4e83-0fea-4ea0-be23-0267518303ce",
+        "order_num": 2,
+        "is_last_point": false,
+        "cycle_time": 1,
+        "balance": 8
+    },
+    {
+        "part_id": "a6f46c67-a08c-4fb5-9b08-b87b6995c953",
+        "section_id": "a12be8bc-25bd-4830-bd6f-6b7d5a27a76a",
+        "order_num": 3,
+        "is_last_point": true,
+        "cycle_time": 1,
+        "balance": 2
+    },
+    {
+        "part_id": "a6f46c67-a08c-4fb5-9b08-b87b6995c953",
+        "section_id": "84ec6131-ce27-41a9-b2d2-f866a3ae7b04",
+        "order_num": 3,
+        "is_last_point": true,
+        "cycle_time": 1,
+        "balance": 4
+    }
+]

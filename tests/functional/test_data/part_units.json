@@ -1,0 +1,17 @@
+[
+    {
+        "part_id": "61cac47c-4e9d-49a1-bf0b-9bfd99953f00",
+        "unit_id": "ddbedf1f-76d4-49a0-8df3-22f57b0548ae",
+        "quantity": 3
+    },
+    {
+        "part_id": "61cac47c-4e9d-49a1-bf0b-9bfd99953f00",
+        "unit_id": "eea413cf-7b03-448d-bbf2-b8a2784c4c07",
+        "quantity": 2
+    },
+    {
+        "part_id": "a6f46c67-a08c-4fb5-9b08-b87b6995c953",
+        "unit_id": "ddbedf1f-76d4-49a0-8df3-22f57b0548ae",
+        "quantity": 5
+    }
+]

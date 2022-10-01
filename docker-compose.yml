@@ -1,0 +1,37 @@
+version: '1'
+
+services:
+
+  plan:
+    build: .
+    container_name: plan
+    volumes:
+    - .:/opt/app
+    env_file: .env
+    ports:
+      - ${APP_PORT}:${APP_PORT}
+    depends_on:
+      db-plan:
+        condition: service_healthy
+
+  db-plan:
+    image: postgres:14.3
+    container_name: db-plan
+    env_file: .env
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    ports:
+      - ${DB_PORT}:5432
+    restart: unless-stopped
+    volumes:
+      - db-plan:/var/lib/postgresql/data
+    healthcheck:
+      test: pg_isready -U ${DB_USER} -D ${DB_NAME} > /dev/null; if [[ $$? == 0 ]]; then echo 0; else echo 1; fi
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  db-plan:

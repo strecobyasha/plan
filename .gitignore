@@ -1,0 +1,7 @@
+*.*cache
+tests/functional/test_data/structure.md
+commands.md
+.DS_Store
+*.idea
+*._cache
+*__pycache__*

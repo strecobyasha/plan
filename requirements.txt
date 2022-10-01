@@ -1,0 +1,11 @@
+alembic==1.8.1
+Flask==2.1.2
+Flask-Migrate==3.1.0
+Flask-SQLAlchemy==2.5.1
+psycopg2-binary==2.9.3
+pydantic==1.9.1
+dependency_injector==4.40.0
+flask-pydantic-spec==0.3.1
+uWSGI==2.0.20
+python-dotenv==0.20.0
+Werkzeug==2.1.2
