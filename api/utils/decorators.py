@@ -4,7 +4,7 @@ from flask import jsonify, request
 
 
 def json_response(f):
-    """Декоратор который после выполнения функции из Response-модели делает json и возвращает ее."""
+    """ Converting response model into json. """
 
     @wraps(f)
     def decorated_function(*args, **kwargs):
@@ -15,7 +15,7 @@ def json_response(f):
 
 
 def unpack_models(f):
-    """Декоратор который входные модели укладывает в kwargs функции."""
+    """ Converting entrance models into kwargs params of the function. """
 
     @wraps(f)
     def decorated_function(*args, **kwargs):
